@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.sookim.coordinatorProject</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.apple.dt.unit.sceneLifecycleApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>Template to start with coordinator</string>
+	<key>NameOfInitialFileForEditor</key>
+	<string>ContentView.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main.storyboard</string>
+								<key>SortOrder</key>
+								<integer>98</integer>
+							</dict>
+							<key>Info.plist:UIMainStoryboardFile</key>
+							<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
+                            &lt;string&gt;Main&lt;/string&gt;
+                        </string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>Base.lproj/Main.storyboard</string>
+							<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
+							<string>Info.plist:UIMainStoryboardFile</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
+							<string>Programmatic-UIKit</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>Base.lproj/Main.storyboard</key>
+							<dict>
+								<key>Path</key>
+								<string>Main.storyboard</string>
+								<key>SortOrder</key>
+								<integer>98</integer>
+							</dict>
+							<key>Info.plist:UIMainStoryboardFile</key>
+							<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
+                            &lt;string&gt;Main&lt;/string&gt;
+                        </string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>Base.lproj/Main.storyboard</string>
+							<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
+							<string>Info.plist:UIMainStoryboardFile</string>
+							<string>ViewController.swift:comments</string>
+							<string>ViewController.swift:imports:importCocoa</string>
+							<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+							<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+							<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
+							<string>Storyboard</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>SupportingFiles/Coordinator.swift</key>
+							<dict>
+								<key>Group</key>
+								<string>SupportingFiles</string>
+								<key>Path</key>
+								<string>SupportingFiles/Coordinator.swift</string>
+								<key>SortOrder</key>
+								<string>1</string>
+							</dict>
+							<key>SupportingFiles/CoordinatorFinishDelegate.swift</key>
+							<dict>
+								<key>Group</key>
+								<string>SupportingFiles</string>
+								<key>Path</key>
+								<string>SupportingFiles/CoordinatorFinishDelegate.swift</string>
+								<key>SortOrder</key>
+								<string>2</string>
+							</dict>
+							<key>SupportingFiles/CoordinatorType.swift</key>
+							<dict>
+								<key>Group</key>
+								<string>SupportingFiles</string>
+								<key>Path</key>
+								<string>SupportingFiles/CoordinatorType.swift</string>
+								<key>SortOrder</key>
+								<string>3</string>
+							</dict>
+							<key>SupportingFiles/AppCoordinator.swift</key>
+							<dict>
+								<key>Group</key>
+								<string>SupportingFiles</string>
+								<key>Path</key>
+								<string>SupportingFiles/AppCoordinator.swift</string>
+								<key>SortOrder</key>
+								<string>4</string>
+							</dict>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>SupportingFiles/CoordinatorFinishDelegate.swift</string>
+							<string>SupportingFiles/CoordinatorType.swift</string>
+							<string>SupportingFiles/Coordinator.swift</string>
+							<string>SupportingFiles/AppCoordinator.swift</string>
+							<string>___VARIABLE_rootClassName___.swift:comments</string>
+							<string>___VARIABLE_rootClassName___.swift:imports:importCocoa</string>
+							<string>___VARIABLE_rootClassName___.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+							<string>___VARIABLE_rootClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+							<string>___VARIABLE_rootClassName___.swift:implementation:methods:viewDidLoad:super</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
+							<string>Programmatic-UIKit</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>*:imports:importSwiftUI</key>
+							<string>import SwiftUI</string>
+							<key>ContentView.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>ContentView.swift</string>
+								<key>SortOrder</key>
+								<integer>99</integer>
+							</dict>
+							<key>Preview Content/Preview Assets.xcassets</key>
+							<dict>
+								<key>Group</key>
+								<string>Preview Content</string>
+								<key>Path</key>
+								<string>Preview Assets.xcassets</string>
+								<key>SortOrder</key>
+								<integer>100</integer>
+							</dict>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+							<string>
+// Create the SwiftUI view that provides the window contents.
+let contentView = ContentView()
+</string>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body:windowScene</key>
+							<string>
+// Use a UIHostingController as window root view controller.
+if let windowScene = scene as? UIWindowScene {
+    let window = UIWindow(windowScene: windowScene)
+    window.rootViewController = UIHostingController(rootView: contentView)
+    self.window = window
+    window.makeKeyAndVisible()
+}</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>ContentView.swift</string>
+							<string>Preview Content/Preview Assets.xcassets</string>
+							<string>SceneDelegate.swift:imports:importSwiftUI</string>
+							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</string>
+							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body:windowScene</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>userInterface</key>
+							<string>SwiftUI</string>
+						</dict>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>SharedSettings</key>
+								<dict>
+									<key>DEVELOPMENT_ASSET_PATHS</key>
+									<string>___PACKAGENAMEPREVIEWCONTENT:quoteIfNeeded___</string>
+									<key>ENABLE_PREVIEWS</key>
+									<string>YES</string>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+							<string>
+// Get the managed object context from the shared persistent container.
+let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
+// Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
+// Add `@Environment(\.managedObjectContext)` in the views that will need the context.
+let contentView = ContentView().environment(\.managedObjectContext, context)
+</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</string>
+						</array>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>coreData</key>
+							<string>true</string>
+							<key>userInterface</key>
+							<string>SwiftUI</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>SwiftUI</string>
+			<key>Description</key>
+			<string>The type of user interface.</string>
+			<key>Identifier</key>
+			<string>userInterface</string>
+			<key>Name</key>
+			<string>User Interface:</string>
+			<key>RequiredOptionsForValues</key>
+			<dict>
+				<key>SwiftUI</key>
+				<dict>
+					<key>languageChoice</key>
+					<string>Swift</string>
+				</dict>
+			</dict>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>Programmatic-UIKit</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Is the root view controller embedded in a navigation controller</string>
+			<key>Identifier</key>
+			<string>navigationController</string>
+			<key>Name</key>
+			<string>Embed in Navigation Controller</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>userInterface</key>
+				<string>Programmatic-UIKit</string>
+			</dict>
+			<key>Units</key>
+			<dict>
+				<key>false</key>
+				<array>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>SceneDelegate.m:implementation:methods:sceneWillConnectToSession:body</key>
+							<string>    UIWindowScene *windowScene = (UIWindowScene *) scene;
+    self.window = [[UIWindow alloc] initWithFrame:windowScene.coordinateSpace.bounds];
+    self.window.windowScene = windowScene;
+    ___VARIABLE_rootClassName___ *rootViewController = [[___VARIABLE_rootClassName___ alloc] init];
+    self.window.rootViewController = rootViewController;
+    [self.window makeKeyAndVisible];</string>
+						</dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Objective-C</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Definitions</key>
+						<dict>
+							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+							<string>guard let windowScene = (scene as? UIWindowScene) else { return }
+let navController = UINavigationController()
+
+coordinator = AppCoordinator(navController)
+coordinator?.start()
+
+window = UIWindow(windowScene: windowScene)
+window?.rootViewController = navController
+window?.makeKeyAndVisible()</string>
+							<key>SceneDelegate.swift:implementation:methods</key>
+							<string>var coordinator: AppCoordinator?</string>
+						</dict>
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+</dict>
+</plist>
