@@ -131,11 +131,11 @@
 							<string>SupportingFiles/CoordinatorType.swift</string>
 							<string>SupportingFiles/Coordinator.swift</string>
 							<string>SupportingFiles/AppCoordinator.swift</string>
-							<string>___VARIABLE_rootClassName___.swift:comments</string>
-							<string>___VARIABLE_rootClassName___.swift:imports:importCocoa</string>
-							<string>___VARIABLE_rootClassName___.swift:implementation(___FILEBASENAME___: UIViewController)</string>
-							<string>___VARIABLE_rootClassName___.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-							<string>___VARIABLE_rootClassName___.swift:implementation:methods:viewDidLoad:super</string>
+							<string>ViewController.swift.swift:comments</string>
+							<string>ViewController.swift.swift:imports:importCocoa</string>
+							<string>ViewController.swift.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+							<string>ViewController.swift.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+							<string>ViewController.swift.swift:implementation:methods:viewDidLoad:super</string>
 						</array>
 						<key>RequiredOptions</key>
 						<dict>
