@@ -12,6 +12,10 @@
 
 Xcode Template for convenient use of coordinator patterns
 
+Please check the blog for explanation of coordinator pattern
+  1. [Concepts and Usage](https://velog.io/@sookim-1/Coordinator-Pattern-1-%EA%B0%9C%EB%85%90-%EB%B0%8F-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95)
+  2. [Naming rules and templates](https://velog.io/@sookim-1/iOS-Coordinator-Pattern-2-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%B0%8F-%EA%B7%9C%EC%B9%99)
+
 ## Installation
 
 ```Shell
