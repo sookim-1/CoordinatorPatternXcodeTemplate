@@ -50,7 +50,7 @@
 						<key>RequiredOptions</key>
 						<dict>
 							<key>userInterface</key>
-							<string>Programmatic-UIKit</string>
+							<string>Storyboard</string>
 						</dict>
 					</dict>
 					<dict>
@@ -140,94 +140,7 @@
 						<key>RequiredOptions</key>
 						<dict>
 							<key>userInterface</key>
-							<string>Programmatic-UIKit</string>
-						</dict>
-					</dict>
-					<dict>
-						<key>Definitions</key>
-						<dict>
-							<key>*:imports:importSwiftUI</key>
-							<string>import SwiftUI</string>
-							<key>ContentView.swift</key>
-							<dict>
-								<key>Path</key>
-								<string>ContentView.swift</string>
-								<key>SortOrder</key>
-								<integer>99</integer>
-							</dict>
-							<key>Preview Content/Preview Assets.xcassets</key>
-							<dict>
-								<key>Group</key>
-								<string>Preview Content</string>
-								<key>Path</key>
-								<string>Preview Assets.xcassets</string>
-								<key>SortOrder</key>
-								<integer>100</integer>
-							</dict>
-							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
-							<string>
-// Create the SwiftUI view that provides the window contents.
-let contentView = ContentView()
-</string>
-							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body:windowScene</key>
-							<string>
-// Use a UIHostingController as window root view controller.
-if let windowScene = scene as? UIWindowScene {
-    let window = UIWindow(windowScene: windowScene)
-    window.rootViewController = UIHostingController(rootView: contentView)
-    self.window = window
-    window.makeKeyAndVisible()
-}</string>
-						</dict>
-						<key>Nodes</key>
-						<array>
-							<string>ContentView.swift</string>
-							<string>Preview Content/Preview Assets.xcassets</string>
-							<string>SceneDelegate.swift:imports:importSwiftUI</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body:windowScene</string>
-						</array>
-						<key>RequiredOptions</key>
-						<dict>
-							<key>userInterface</key>
-							<string>SwiftUI</string>
-						</dict>
-						<key>Targets</key>
-						<array>
-							<dict>
-								<key>SharedSettings</key>
-								<dict>
-									<key>DEVELOPMENT_ASSET_PATHS</key>
-									<string>___PACKAGENAMEPREVIEWCONTENT:quoteIfNeeded___</string>
-									<key>ENABLE_PREVIEWS</key>
-									<string>YES</string>
-								</dict>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>Definitions</key>
-						<dict>
-							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
-							<string>
-// Get the managed object context from the shared persistent container.
-let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-
-// Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
-// Add `@Environment(\.managedObjectContext)` in the views that will need the context.
-let contentView = ContentView().environment(\.managedObjectContext, context)
-</string>
-						</dict>
-						<key>Nodes</key>
-						<array>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</string>
-						</array>
-						<key>RequiredOptions</key>
-						<dict>
-							<key>coreData</key>
-							<string>true</string>
-							<key>userInterface</key>
-							<string>SwiftUI</string>
+							<string>Storyboard</string>
 						</dict>
 					</dict>
 				</array>
@@ -235,7 +148,7 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>SwiftUI</string>
+			<string>Storyboard</string>
 			<key>Description</key>
 			<string>The type of user interface.</string>
 			<key>Identifier</key>
@@ -244,7 +157,7 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 			<string>User Interface:</string>
 			<key>RequiredOptionsForValues</key>
 			<dict>
-				<key>SwiftUI</key>
+				<key>Storyboard</key>
 				<dict>
 					<key>languageChoice</key>
 					<string>Swift</string>
@@ -254,7 +167,7 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 			<string>popup</string>
 			<key>Values</key>
 			<array>
-				<string>Programmatic-UIKit</string>
+				<string>Storyboard</string>
 			</array>
 		</dict>
 		<dict>
@@ -269,7 +182,7 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 			<key>RequiredOptions</key>
 			<dict>
 				<key>userInterface</key>
-				<string>Programmatic-UIKit</string>
+				<string>Storyboard</string>
 			</dict>
 			<key>Units</key>
 			<dict>
