@@ -27,7 +27,8 @@ $ cd ~/Library/Developer/Xcode/Templates
 
 ```
 
-![ReadMeGif](https://user-images.githubusercontent.com/55218398/184839154-15dc378e-a199-4a68-8c73-63fb7375feac.gif)
+
+![ReadMeGif](https://github.com/sookim-1/CoordinatorPatternXcodeTemplate/assets/55218398/40dcb30d-c54d-4246-9743-b9a2e43d810a)
 
 ## Get Started
 ### Project Templates
