@@ -1,13 +1,13 @@
 #!/usr/bin/env sh
 
-# 경로 설정
+# path - You can set the path directly
 XCODE_FILE_TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/File Templates/CoordinatorFile'
 XCODE_PROJECT_TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/Project Templates/Coordinator'
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# 템플릿 복제하기
+# file template copy
 xcodeFileTemplate () {
-  echo "==> Coordinator File 템플릿 복제시작"
+  echo "==> Coordinator File template copy"
 
   if [ -d "$XCODE_FILE_TEMPLATE_DIR" ]; then
     rm -R "$XCODE_FILE_TEMPLATE_DIR"
@@ -17,9 +17,9 @@ xcodeFileTemplate () {
   cp -R $SCRIPT_DIR/CoordinatorFile.xctemplate "$XCODE_FILE_TEMPLATE_DIR"
 }
 
-# 프로젝트 템플릿 복제
+# project template copy
 xcodeProjectTemplate () {
-  echo "==> Coordinator Project 템플릿 복제시작"
+  echo "==> Coordinator Project template copy"
 
   if [ -d "$XCODE_PROJECT_TEMPLATE_DIR" ]; then
     rm -R "$XCODE_PROJECT_TEMPLATE_DIR"
@@ -32,4 +32,4 @@ xcodeProjectTemplate () {
 xcodeFileTemplate
 xcodeProjectTemplate
 
-echo "==> 성공!"
+echo "==> success!"
